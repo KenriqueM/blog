@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Welcome to My Blog`,
     name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
+    siteUrl: `https://www.kenrique.com`,
     description: `This is my description that will be used in the meta tags and important for search results`,
     hero: {
       heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,

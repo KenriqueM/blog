@@ -1,12 +1,4 @@
 - name: Kennedy Maling
-  bio: |
-  Twitter: aka_kenrique
-    
-  avatar: ./avatars/kennybee.jpeg
+  bio: Learnin web development
+  avatar: ./avatars/kennybee.jpg
   featured: true
-
-- name: Thiago Costa
-  bio: |
-    Written by You. This is where your author bio lives. Share your work, your
-    joys and of course, your Twitter handle.
-  avatar: ./avatars/thiago-costa.png
