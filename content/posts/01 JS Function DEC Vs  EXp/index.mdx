@@ -1,0 +1,36 @@
+---
+title: Js Function Declaration Vs Function Expression
+author: Kenrique Maling Cherom
+date: 2019-08-26
+hero: ./images/hero-js.jpeg
+excerpt: An article about javascript function declaration and function expression.
+---
+
+
+# JS Function Declaration Vs Function Expression
+
+There are four or more ways to write functions, but here we’re going to look at two ways of creating functions.  
+A Function Declaration is always hoisted before the function is executed. It is the most used method to declare a function in Javascript using function keyword followed by its function name, then parenthesis and body of code written inside curly braces.  
+
+
+Example:  	
+
+	function sum (x, y) { 		
+		console.log( x + y); 	}  
+
+To call or invoke a function, use its function name. E.g sum()    
+
+
+A Function Expression is determined by a function keyword, followed by an optional function name, a pair of parenthesis ( ) and a pair of curly braces { }. Function expression is created when the execution reaches its code. It uses variable to declare and assigned as an anonymous function. It does not have a named function since it is stored inside a variable.  
+
+Example:  	
+	
+	var sayHello = function() {
+		console.log("Hello!")
+	};	
+
+Differences between Declaration and Expressions:  
+
+*  a function declaration can be called before or after that function is declared.
+
+* a function expression is called before it is declared it’ll throw an error.  
