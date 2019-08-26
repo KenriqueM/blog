@@ -23,7 +23,7 @@ module.exports = {
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/kennedy-maling-b8117192/`,
+        url: `https://www.linkedin.com/in/kennedy-maling-b8117192/`,
       },
       {
         name: `dribbble`,
