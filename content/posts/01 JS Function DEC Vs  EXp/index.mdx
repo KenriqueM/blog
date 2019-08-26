@@ -9,8 +9,9 @@ excerpt: An article about javascript function declaration and function expressio
 
 # JS Function Declaration Vs Function Expression
 
-There are four or more ways to write functions, but here we’re going to look at two ways of creating functions.  
-A Function Declaration is always hoisted before the function is executed. It is the most used method to declare a function in Javascript using function keyword followed by its function name, then parenthesis and body of code written inside curly braces.  
+There are four or more ways to write functions, but here we’re going to look at three ways of creating functions.  
+A Function Declaration is always hoisted before the function is executed, and hoisting means that no matter where functions and variables are declared, they are moved to the top of their scope regardless of whether their scope is global or local. 
+It is the most used method to declare a function in Javascript using function keyword followed by its function name, then parenthesis and body of code written inside curly braces.  
 
 
 Example:  	
@@ -25,7 +26,7 @@ A Function Expression is determined by a function keyword, followed by an optio
 
 Example:  	
 	
-	var sayHello = function() {
+	let sayHello = function() {
 		console.log("Hello!")
 	};	
 
@@ -34,3 +35,12 @@ Differences between Declaration and Expressions:  
 A function declaration can be called before or after that function is declared.
 
 A function expression is called before it is declared it’ll throw an error.  
+
+
+An arrow function is another way of creating function, and arrow function can be defined as a conscise way of writing a complex function using arrow key(=>). It has the shortest syntax. 
+
+Example: 
+
+	let addNumbers = (x = 0, y = 0) => {
+		return x + y;
+};
