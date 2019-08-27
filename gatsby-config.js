@@ -5,7 +5,7 @@ module.exports = {
     siteUrl: `https://www.kenrique.com`,
     description: `This is my description that will be used in the meta tags and important for search results`,
     hero: {
-      heading: "Just About Everything I Love"
+      heading: `Just About Everything I Love`,
       maxWidth: 652,
     },
     social: [
